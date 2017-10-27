@@ -1,0 +1,11 @@
+apply plugin: 'groovy'
+
+dependencies {
+	compile ("com.gigaspaces:gs-openspaces:$gsVersion") {
+		exclude group: 'org.apache.openjpa'
+	}
+	compile 'org.codehaus.groovy:groovy-all:2.4.4'
+
+	testCompile "org.springframework:spring-test:$springVersion"
+	testCompile "org.spockframework:spock-spring:1.0-groovy-2.4"
+}

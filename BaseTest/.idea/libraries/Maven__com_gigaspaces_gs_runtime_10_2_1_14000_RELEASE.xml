@@ -1,0 +1,43 @@
+<component name="libraryTable">
+  <library name="Maven: com.gigaspaces:gs-runtime:10.2.1-14000-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-runtime/10.2.1-14000-RELEASE/gs-runtime-10.2.1-14000-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-runtime/10.2.1-14000-RELEASE/gs-runtime-10.2.1-14000-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-runtime/10.2.1-14000-RELEASE/gs-runtime-10.2.1-14000-RELEASE-sources.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../xap/build-utils/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/core/src/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/core/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/core/tools/benchmark/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/frameworks/maven-permutation-generator-plugin/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/frameworks/tf/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/influxdb/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/influxdb/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/openspaces/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/openspaces/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/openspaces/tools/alert-integration/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/sg-tests/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/tests/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/tests/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/CodeMirror-GWT-emu/src" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/CodeMirror-GWT/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/client-bundle/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/color-palette/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/gs-graphs-test/src" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/gs-graphs/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/gs-jquery-widgets-test/src" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/gs-jquery-widgets/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/gs-svg-components-test/src" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/gs-svg-components/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/highcharts-gwt/GxtTest/src" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/highcharts-gwt/Main/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/libs/highcharts-gwt/PlainGwtTest/src" />
+      <root url="file://$PROJECT_DIR$/../../xap/xap-ui-web/webui/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/zookeeper/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../xap/zookeeper/src/test/java" />
+    </SOURCES>
+  </library>
+</component>

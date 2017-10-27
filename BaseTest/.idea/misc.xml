@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/DistributedTask/pom.xml" />
+        <option value="$PROJECT_DIR$/BasicClient/pom.xml" />
+        <option value="$PROJECT_DIR$/RemoteService/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaAuditing/pom.xml" />
+        <option value="$PROJECT_DIR$/Elastic-PU/pom.xml" />
+        <option value="$PROJECT_DIR$/../../UBS/TaskPu1/pom.xml" />
+        <option value="$PROJECT_DIR$/Blob/pom.xml" />
+        <option value="$PROJECT_DIR$/JdbcClient/pom.xml" />
+        <option value="$PROJECT_DIR$/Filter/pom.xml" />
+        <option value="$PROJECT_DIR$/FilterBean/pom.xml" />
+        <option value="$PROJECT_DIR$/CustomReporter/pom.xml" />
+        <option value="$PROJECT_DIR$/CustomMetric/pom.xml" />
+        <option value="$PROJECT_DIR$/JunitTest/pom.xml" />
+        <option value="$PROJECT_DIR$/FindNumberOfPrimaries/pom.xml" />
+        <option value="$PROJECT_DIR$/pollingContainer/pom.xml" />
+        <option value="$PROJECT_DIR$/my-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/FullPollingContainer/pom.xml" />
+        <option value="$PROJECT_DIR$/sigar/pom.xml" />
+        <option value="$PROJECT_DIR$/ChangeModeEvent/pom.xml" />
+        <option value="$PROJECT_DIR$/Geospatial/pom.xml" />
+        <option value="$PROJECT_DIR$/ClusterInfo/pom.xml" />
+        <option value="$PROJECT_DIR$/SingleTone/pom.xml" />
+        <option value="$PROJECT_DIR$/SimpleTest/pom.xml" />
+        <option value="$PROJECT_DIR$/Task/pom.xml" />
+        <option value="$PROJECT_DIR$/Hostname/pom.xml" />
+        <option value="$PROJECT_DIR$/memory-spike/pom.xml" />
+        <option value="$PROJECT_DIR$/Mirror/pom.xml" />
+        <option value="$PROJECT_DIR$/alerts/pom.xml" />
+        <option value="$PROJECT_DIR$/LocalCache/pom.xml" />
+        <option value="$USER_HOME$/PlayGround/xap-tutorial/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/pom.xml" />
+        <option value="$PROJECT_DIR$/UBS-case9965/pom.xml" />
+        <option value="$PROJECT_DIR$/UBSLatestTask/pom.xml" />
+        <option value="$PROJECT_DIR$/UBSLatestChange/pom.xml" />
+        <option value="$PROJECT_DIR$/ReadModifiers/pom.xml" />
+        <option value="$PROJECT_DIR$/TaskSpaceDocumentWrite/pom.xml" />
+        <option value="$PROJECT_DIR$/UBSClassNotFound/pom.xml" />
+        <option value="$PROJECT_DIR$/FilterChangeQuery/pom.xml" />
+        <option value="$PROJECT_DIR$/WriteMultiple/pom.xml" />
+        <option value="$PROJECT_DIR$/WriteMultipleTwoThreadsTest/pom.xml" />
+        <option value="$PROJECT_DIR$/ReadMultiple/pom.xml" />
+        <option value="$PROJECT_DIR$/getVersion/pom.xml" />
+        <option value="$PROJECT_DIR$/WriteSerializationObject/pom.xml" />
+        <option value="$PROJECT_DIR$/WebScale/pom.xml" />
+        <option value="$PROJECT_DIR$/xap-polling-test_v1/pom.xml" />
+        <option value="$PROJECT_DIR$/DynamicPollingContainer/pom.xml" />
+        <option value="$PROJECT_DIR$/BasicPU/pom.xml" />
+        <option value="$PROJECT_DIR$/PuStatusChange/pom.xml" />
+        <option value="$USER_HOME$/PlayGround/FrequentisExample/pom.xml" />
+        <option value="$PROJECT_DIR$/MirrorExample/pom.xml" />
+        <option value="$PROJECT_DIR$/KafkaIE/pom.xml" />
+        <option value="$PROJECT_DIR$/RestManagerAPI/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/Dash/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/Dash/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/Notification/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/model/pom.xml" />
+        <option value="$PROJECT_DIR$/event_remoting/CommonDomain/pom.xml" />
+        <option value="$PROJECT_DIR$/event_remoting/eventRemotingClient/pom.xml" />
+        <option value="$PROJECT_DIR$/event_remoting/eventRemotingServer/pom.xml" />
+        <option value="$PROJECT_DIR$/event_remoting/pom.xml" />
+        <option value="$PROJECT_DIR$/xap-polling-test_v1/contract/pom.xml" />
+        <option value="$PROJECT_DIR$/xap-polling-test_v1/pom.xml" />
+        <option value="$PROJECT_DIR$/xap-polling-test_v1/writer-pu/pom.xml" />
+        <option value="$USER_HOME$/PlayGround/FrequentisExample/contract/pom.xml" />
+        <option value="$USER_HOME$/PlayGround/FrequentisExample/poller/pom.xml" />
+        <option value="$USER_HOME$/PlayGround/FrequentisExample/pom.xml" />
+        <option value="$USER_HOME$/PlayGround/xap-tutorial/model/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

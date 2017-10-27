@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.gigaspaces:xap-asm:12.0.1-ga">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gigaspaces/xap-asm/12.0.1-ga/xap-asm-12.0.1-ga.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gigaspaces/xap-asm/12.0.1-ga/xap-asm-12.0.1-ga-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gigaspaces/xap-asm/12.0.1-ga/xap-asm-12.0.1-ga-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

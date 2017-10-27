@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:os-core="http://www.openspaces.org/schema/core"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd   http://www.openspaces.org/schema/core http://www.openspaces.org/schema/9.7/core/openspaces-core.xsd">
+
+	<os-core:space id="myLocalSpace" url="/./myLocalSpace?locators=localhost:5999">
+		<os-core:space-type type-name="ic.TransactionExpected">
+			<os-core:id property="uniqueId"/>
+			<os-core:routing property="aggregateId"/>
+		</os-core:space-type>
+	</os-core:space>
+
+</beans>

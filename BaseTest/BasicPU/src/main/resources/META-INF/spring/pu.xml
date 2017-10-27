@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:os-core="http://www.openspaces.org/schema/core"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:os-events="http://www.openspaces.org/schema/events"
+       xmlns:os-remoting="http://www.openspaces.org/schema/remoting"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+       http://www.openspaces.org/schema/core http://www.openspaces.org/schema/12.0/core/openspaces-core.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+       http://www.openspaces.org/schema/events http://www.openspaces.org/schema/12.0/events/openspaces-events.xsd
+       http://www.openspaces.org/schema/remoting http://www.openspaces.org/schema/12.0/remoting/openspaces-remoting.xsd">
+ 
+ 
+    <bean id="propertiesConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer"/>
+ 
+    <os-core:giga-space-context/>
+  <!-- Enables to configure Spring beans through annotations   -->
+    <context:annotation-config />
+ 
+    <!-- Enable @PostPrimary and others annotation support. -->
+    <os-core:annotation-support />
+
+    <bean id="MockEds" class="test.MockEds">
+    <property name="initialLoadQueryScanningBasePackages">
+        <!-- If absent or empty, the system will not search for initial load query methods -->
+        <list>
+            <value>com.example</value>
+        </list>
+    </property>
+    </bean>
+
+    <os-core:space id="space" url="/./dataSourceSpace" mirror="true" space-data-source="MockEds">
+        <os-core:properties>
+            <props>
+                <!-- Use ALL IN CACHE -->
+                <prop key="space-config.engine.cache_policy">1</prop>
+                <!--<prop key="cluster-config.cache-loader.external-data-source">true</prop>-->
+                <!--<prop key="cluster-config.cache-loader.central-data-source">true</prop>-->
+            </props>
+        </os-core:properties>
+    </os-core:space>
+
+     <!--<os-core:distributed-tx-manager id="transactionManager"/>-->
+ <!---->
+    <!--<os-core:giga-space id="gigaSpace" space="space" tx-manager="transactionManager"/>-->
+ <!---->
+    <!--<bean id = "eventContainerList" class = "java.util.ArrayList" scope = "singleton"></bean>-->
+</beans>

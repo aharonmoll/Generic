@@ -1,0 +1,9 @@
+10-08-2015 00:37:46 DEBUG GigaSpaceFactoryBean:347 - Clustered flag automatically set to [false] for bean [null]
+10-08-2015 00:37:46 DEBUG EmbeddedSpaceFactoryBean:195 - Space [sandboxSpace_container:sandboxSpace] mode is [PRIMARY]
+10-08-2015 00:37:46 DEBUG GigaSpaceFactoryBean:347 - Clustered flag automatically set to [false] for bean [null]
+10-08-2015 00:37:46 DEBUG AnnotationEventListenerAdapter:41 - Thread.currentThread().getContextClassLoader()=sun.misc.Launcher$AppClassLoader@2e0fa5d3
+10-08-2015 00:37:46 DEBUG SimplePollingEventListenerContainer:495 - [null] Started polling event container with receiveTimeout [60000], template SQLQuery[SELECT * FROM purchase.example.PurchaseOrder WHERE state = ?], concurrentConsumers [1]
+10-08-2015 00:37:47 DEBUG NewOrderProcessor:51 - handling the exception for the: 1 time
+10-08-2015 00:37:47 DEBUG NewOrderProcessor:55 - Max retry count reached throwing exception
+10-08-2015 00:37:47 DEBUG PoEventExceptionHandler:28 - Dealing with the exception, change the status to UNPROCESSABLE and write it back into the space
+10-08-2015 00:37:48 DEBUG Program:48 - PurchaseOrder in Space PurchaseOrder [retryCounter=0, id=094a0a48-eab1-4e6d-a341-31508f1406ca, number=null, state=UNPROCESSABLE]

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.gigaspaces:gs-openspaces:10.1.1-12800-RELEASE">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-openspaces/10.1.1-12800-RELEASE/gs-openspaces-10.1.1-12800-RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-openspaces/10.1.1-12800-RELEASE/gs-openspaces-10.1.1-12800-RELEASE-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-openspaces/10.1.1-12800-RELEASE/gs-openspaces-10.1.1-12800-RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

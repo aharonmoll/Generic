@@ -1,0 +1,48 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:os-core="http://www.openspaces.org/schema/core"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:os-events="http://www.openspaces.org/schema/events"
+       xmlns:os-remoting="http://www.openspaces.org/schema/remoting" xmlns:os-sla="http://www.openspaces.org/schema/sla"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+       http://www.openspaces.org/schema/core http://www.openspaces.org/schema/10.2/core/openspaces-core.xsd
+       http://www.openspaces.org/schema/events http://www.openspaces.org/schema/10.2/events/openspaces-events.xsd
+       http://www.openspaces.org/schema/remoting http://www.openspaces.org/schema/10.2/remoting/openspaces-remoting.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
+
+    <!--
+        Spring property configurer which allows us to use system properties (such as user.name).
+    -->
+    <bean id="propertiesConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties">
+            <props>
+                <prop key="dataGridName">dataGrid</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--
+        A bean representing an embedded space.
+    -->
+
+    <!--
+        Scan for components (both Spring ones and OpenSpaces ones)
+    -->
+    <context:component-scan base-package="com.gs.latest"/>
+
+
+    <os-core:embedded-space id="space" space-name="mySpace" lookup-groups="aharon">
+        <os-core:space-type type-name="Trade" >
+            <os-core:id property="uniqueId"/>
+            <os-core:routing property="aggregateId"/>
+            <os-core:fixed-property name="uniqueId" type-name="java.lang.Integer"/>
+            <os-core:fixed-property name="aggregateId" type-name="java.lang.Integer"/>
+            <os-core:fixed-property name="date" type-name="java.util.Date"/>
+        </os-core:space-type>
+    </os-core:embedded-space>
+
+    <os-core:giga-space id="gigaSpace" space="space"/>
+
+</beans>

@@ -1,0 +1,2721 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="56125dfc-d0cd-415c-81e4-306c6b13df3b" name="Default" comment="">
+      <change type="MOVED" beforePath="$USER_HOME$/PlayGround/xap-tutorial/cassandra/src/main/resources/META-INF/spring/pu.xml" afterPath="$USER_HOME$/PlayGround/xap-tutorial/cassandra/src/main/resources/spring/pu.xml" />
+      <change type="MOVED" beforePath="$USER_HOME$/PlayGround/xap-tutorial/pu/src/main/resources/META-INF/spring/pu.xml" afterPath="$USER_HOME$/PlayGround/xap-tutorial/pu/src/main/resources/spring/pu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/.gitignore" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/AbstractMessage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/AbstractMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/InboundMessage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/InboundMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/InboundMessageHandler.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/InboundMessageHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/NewProxySpaceProvider.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/NewProxySpaceProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/OutboundMessage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/OutboundMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/OutboundMessageTransporter.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/OutboundMessageTransporter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/SameAsInTestCodeSpaceProvider.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/SameAsInTestCodeSpaceProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/Service.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/Service.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/SpaceProvider.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/SpaceProvider.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/TransactionalWorker.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/main/java/com/frequentis/ps/test/disablelus/TransactionalWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/DisableLusTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/DisableLusTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/EmbeddedSpaceFactory.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/EmbeddedSpaceFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/MultiPartitionTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/MultiPartitionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/SomeSpaceObject.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/DisableLus/src/test/java/com/frequentis/ps/test/disablelus/SomeSpaceObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/InQueryTest/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/InQueryTest/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/InQueryTest/src/main/java/com/frequentis/ps/test/inquery/Person.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/InQueryTest/src/main/java/com/frequentis/ps/test/inquery/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/InQueryTest/src/test/java/com/frequentis/ps/test/inquery/PersonQueryTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/InQueryTest/src/test/java/com/frequentis/ps/test/inquery/PersonQueryTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/main/java/com/frequentis/ps/test/optimisticLocking/Person.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/main/java/com/frequentis/ps/test/optimisticLocking/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/main/java/com/frequentis/ps/test/optimisticLocking/StopWatch.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/main/java/com/frequentis/ps/test/optimisticLocking/StopWatch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/main/java/com/frequentis/ps/test/optimisticLocking/VersionedPerson.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/main/java/com/frequentis/ps/test/optimisticLocking/VersionedPerson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/AbstractTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/AbstractTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/OptimisticLockingTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/OptimisticLockingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/TransactionTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/TransactionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/VersionedPersonTemplateTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/OptimisticLocking/src/test/java/com/frequentis/ps/test/optimisticLocking/VersionedPersonTemplateTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/AbstractPerson.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/AbstractPerson.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/Country.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/Country.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/Person.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/Person.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/PersonWithBinaryCountry.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/main/java/com/frequentis/ps/test/pollingcontainer/PersonWithBinaryCountry.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/test/java/com/frequentis/ps/test/pollingcontainer/LoggingSpaceDataEventListener.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/test/java/com/frequentis/ps/test/pollingcontainer/LoggingSpaceDataEventListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/test/java/com/frequentis/ps/test/pollingcontainer/PollingContainerTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PollingContainerTest/src/test/java/com/frequentis/ps/test/pollingcontainer/PollingContainerTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/main/java/com/frequentis/ps/test/priorityQueues/Message.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/main/java/com/frequentis/ps/test/priorityQueues/Message.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/main/java/com/frequentis/ps/test/priorityQueues/MessageComparator.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/main/java/com/frequentis/ps/test/priorityQueues/MessageComparator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/test/java/com/frequentis/ps/test/priorityQueues/AbstractTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/test/java/com/frequentis/ps/test/priorityQueues/AbstractTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/test/java/com/frequentis/ps/test/priorityQueues/CollectionSortedMatcher.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/test/java/com/frequentis/ps/test/priorityQueues/CollectionSortedMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/test/java/com/frequentis/ps/test/priorityQueues/PriorityQueuesTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/PriorityQueues/src/test/java/com/frequentis/ps/test/priorityQueues/PriorityQueuesTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/BlockingMessageReaderWithTake.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/BlockingMessageReaderWithTake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/BlockingMultiMessageReaderWithTake.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/BlockingMultiMessageReaderWithTake.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/CompletionServices.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/CompletionServices.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/ConcurrentFifoReadTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/ConcurrentFifoReadTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/EmbeddedUrlSpaceHandleFactory.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/EmbeddedUrlSpaceHandleFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/FutureMatcher.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/FutureMatcher.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/Identifiable.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/Identifiable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/SimpleFifoObject.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/SimpleFifoObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/UrlSpaceHandle.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/java/com/frequentis/space/demos/concurrentfiforead/UrlSpaceHandle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/resources/log4j2-test.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/concurrent-fifo-read/src/test/resources/log4j2-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/.gitignore" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/AbstractSpaceTransportMessage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/AbstractSpaceTransportMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/GridObject.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/GridObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/InboundMessage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/InboundMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/OutboundMessage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/OutboundMessage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/PsiAddress.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/PsiAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/PsiElementPath.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/PsiElementPath.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/PsiTransportAddress.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/PsiTransportAddress.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/RoutedSpaceInstance.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/RoutedSpaceInstance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/SomeTransportable.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/SomeTransportable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/SpaceObject.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/SpaceObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/Transportable.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/main/java/com/frequentis/space/demos/fifo/index/Transportable.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/test/java/com/frequentis/space/demos/fifo/index/FifoTests.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/test/java/com/frequentis/space/demos/fifo/index/FifoTests.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/test/resources/logging.properties" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/fifo-index/src/test/resources/logging.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/.gitignore" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/AbstractStringIdentifier.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/AbstractStringIdentifier.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SagaState.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SagaState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SagaStateSpaceStorageObject.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SagaStateSpaceStorageObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SpaceObject.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SpaceObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SpaceSagaState.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SpaceSagaState.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SpaceSagaStorage.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/SpaceSagaStorage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/TalkgroupClientId.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/TalkgroupClientId.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/TalkgroupId.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/TalkgroupId.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/TalkgroupSessionId.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/main/java/com/frequentis/readmultiple/types/TalkgroupSessionId.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/test/java/com/frequentis/readmultiple/types/ReproduceTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/test/java/com/frequentis/readmultiple/types/ReproduceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/test/resources/logging.properties" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/readmultiple-types/src/test/resources/logging.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/pom.xml" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/AbstractSpacePojoTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/AbstractSpacePojoTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/SameSpacePropertyValues.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/SameSpacePropertyValues.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/constructor/WriteReadPojosWithSpaceClassConstructorTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/constructor/WriteReadPojosWithSpaceClassConstructorTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/performance/HistogramFormater.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/performance/HistogramFormater.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/performance/WriteReadPerformanceTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/performance/WriteReadPerformanceTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/PublicGetterSetterPojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/PublicGetterSetterPojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SpaceClassConstructorPojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SpaceClassConstructorPojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SubTypedPublicGetterSetterPojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SubTypedPublicGetterSetterPojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SubTypedSpaceClassConstructorPojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SubTypedSpaceClassConstructorPojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SubTypedSpaceClassConstructorPojo2.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SubTypedSpaceClassConstructorPojo2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SuperPublicGetterSetterPojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SuperPublicGetterSetterPojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SuperSpaceClassConstructorPojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/pojos/SuperSpaceClassConstructorPojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/routing/EmbeddedSpaceRoutingTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/routing/EmbeddedSpaceRoutingTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/Pojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/Pojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/SubTypePojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/SubTypePojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/SuperTypePojo1.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/SuperTypePojo1.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/TemplateMatchingTest.java" afterPath="$PROJECT_DIR$/ps-space-demos/ps-space-demos/space-pojotest/src/test/java/com/frequentis/space/pojo/test/template/TemplateMatchingTest.java" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/PlayGround/xap-tutorial/pom.xml" afterPath="$USER_HOME$/PlayGround/xap-tutorial/pom.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/PlayGround/xap-tutorial/web/space-access/src/main/webapp/META-INF/spring/pu.xml" afterPath="$USER_HOME$/PlayGround/xap-tutorial/web/space-access/src/main/webapp/META-INF/spring/pu.xml" />
+      <change type="MODIFICATION" beforePath="$USER_HOME$/PlayGround/xap-tutorial/web/space-access/src/main/webapp/META-INF/spring/sla.xml" afterPath="$USER_HOME$/PlayGround/xap-tutorial/web/space-access/src/main/webapp/META-INF/spring/sla.xml" />
+    </list>
+    <ignored path="BaseTest.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/DistributedTask/target/" />
+    <ignored path="$PROJECT_DIR$/BasicClient/target/" />
+    <ignored path="$PROJECT_DIR$/RemoteService/target/" />
+    <ignored path="$PROJECT_DIR$/JavaAuditing/target/" />
+    <ignored path="$PROJECT_DIR$/Elastic-PU/target/" />
+    <ignored path="$PROJECT_DIR$/../../UBS/TaskPu1/target/" />
+    <ignored path="$PROJECT_DIR$/Blob/target/" />
+    <ignored path="$PROJECT_DIR$/JdbcClient/target/" />
+    <ignored path="$PROJECT_DIR$/Filter/target/" />
+    <ignored path="$PROJECT_DIR$/FilterBean/target/" />
+    <ignored path="$PROJECT_DIR$/CustomReporter/target/" />
+    <ignored path="$PROJECT_DIR$/CustomMetric/target/" />
+    <ignored path="$PROJECT_DIR$/SimpleTest/target/" />
+    <ignored path="$PROJECT_DIR$/JunitTest/target/" />
+    <ignored path="$PROJECT_DIR$/FindNumberOfPrimaries/target/" />
+    <ignored path="$PROJECT_DIR$/pollingContainer/target/" />
+    <ignored path="$PROJECT_DIR$/my-rest/target/" />
+    <ignored path="$PROJECT_DIR$/FullPollingContainer/target/" />
+    <ignored path="$PROJECT_DIR$/sigar/target/" />
+    <ignored path="$PROJECT_DIR$/ChangeModeEvent/target/" />
+    <ignored path="$PROJECT_DIR$/Geospatial/target/" />
+    <ignored path="$PROJECT_DIR$/ClusterInfo/target/" />
+    <ignored path="$PROJECT_DIR$/SingleTone/target/" />
+    <ignored path="$PROJECT_DIR$/Task/target/" />
+    <ignored path="$PROJECT_DIR$/Hostname/target/" />
+    <ignored path="$PROJECT_DIR$/memory-spike/target/" />
+    <ignored path="$PROJECT_DIR$/Mirror/target/" />
+    <ignored path="$PROJECT_DIR$/event_remoting/target/" />
+    <ignored path="$PROJECT_DIR$/event_remoting/eventRemotingServer/target/" />
+    <ignored path="$PROJECT_DIR$/event_remoting/eventRemotingClient/target/" />
+    <ignored path="$PROJECT_DIR$/event_remoting/CommonDomain/target/" />
+    <ignored path="$PROJECT_DIR$/alerts/target/" />
+    <ignored path="$PROJECT_DIR$/LocalCache/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/qsg/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/web/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/cassandra/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/web/session/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/web/plain/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/pu/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/model/target/" />
+    <ignored path="$USER_HOME$/PlayGround/xap-tutorial/web/space-access/target/" />
+    <ignored path="$PROJECT_DIR$/Notification/target/" />
+    <ignored path="$PROJECT_DIR$/UBS-case9965/target/" />
+    <ignored path="$PROJECT_DIR$/UBSLatestTask/target/" />
+    <ignored path="$PROJECT_DIR$/UBSLatestChange/target/" />
+    <ignored path="$PROJECT_DIR$/ReadModifiers/target/" />
+    <ignored path="$PROJECT_DIR$/TaskSpaceDocumentWrite/target/" />
+    <ignored path="$PROJECT_DIR$/UBSClassNotFound/target/" />
+    <ignored path="$PROJECT_DIR$/SecurityFilter/target/" />
+    <ignored path="$PROJECT_DIR$/FilterChangeQuery/target/" />
+    <ignored path="$PROJECT_DIR$/WriteMultiple/target/" />
+    <ignored path="$PROJECT_DIR$/WriteMultipleTwoThreadsTest/target/" />
+    <ignored path="$PROJECT_DIR$/ReadMultiple/target/" />
+    <ignored path="$USER_HOME$/ZooKeeper/zkui/target/" />
+    <ignored path="$PROJECT_DIR$/getVersion/target/" />
+    <ignored path="$PROJECT_DIR$/WriteSerializationObject/target/" />
+    <ignored path="$PROJECT_DIR$/Dash/target/" />
+    <ignored path="$PROJECT_DIR$/Notification/Dash/target/" />
+    <ignored path="$PROJECT_DIR$/Notification/Notification/target/" />
+    <ignored path="$PROJECT_DIR$/Notification/model/target/" />
+    <ignored path="$PROJECT_DIR$/WebScale/target/" />
+    <ignored path="$PROJECT_DIR$/xap-polling-test_v1/contract/target/" />
+    <ignored path="$PROJECT_DIR$/xap-polling-test_v1/target/" />
+    <ignored path="$PROJECT_DIR$/xap-polling-test_v1/writer-pu/target/" />
+    <ignored path="$PROJECT_DIR$/xap-polling-test_v1/poller/target/" />
+    <ignored path="$PROJECT_DIR$/DynamicPollingContainer/target/" />
+    <ignored path="$PROJECT_DIR$/BasicPU/target/" />
+    <ignored path="$PROJECT_DIR$/PuStatusChange/target/" />
+    <ignored path="$USER_HOME$/PlayGround/FrequentisExample/writer-pu/target/" />
+    <ignored path="$USER_HOME$/PlayGround/FrequentisExample/contract/target/" />
+    <ignored path="$USER_HOME$/PlayGround/FrequentisExample/target/" />
+    <ignored path="$USER_HOME$/PlayGround/FrequentisExample/poller/target/" />
+    <ignored path="$PROJECT_DIR$/MirrorExample/target/" />
+    <ignored path="$PROJECT_DIR$/EnamTest/target/" />
+    <ignored path="$PROJECT_DIR$/KafkaIE/target/" />
+    <ignored path="$PROJECT_DIR$/Notification/model2/target/" />
+    <ignored path="$PROJECT_DIR$/RestManagerAPI/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/BaseTest$MainTaskExecutor.coverage" NAME="MainTaskExecutor Coverage Results" MODIFIED="1495292187075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.test.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/BaseTest$LatestWriteChange.coverage" NAME="LatestWriteChange Coverage Results" MODIFIED="1473602414966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="BaseTest">
+      <favorite_root url="file://$PROJECT_DIR$/Notification/model" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+        <favorite_root url="file://$PROJECT_DIR$/Notification/model/src" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/data" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                    <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/data/Data.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  </favorite_root>
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/Notify.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/DataFeeder.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyHAMain.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/MyLeaseListener.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyWithNoLease.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/MyLeaseListenerBean.java" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/resources" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/resources/META-INF" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/resources/META-INF/spring" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/resources/META-INF/spring/pu.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/main/resources/META-INF/spring/sla.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/test" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/src/test/java" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+          </favorite_root>
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/Notification/model/target" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+          <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/data" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/data/Data.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/Notify.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/DataFeeder.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/NotifyHAMain.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/MyLeaseListener.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/NotifyWithNoLease.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/gs/example/MyLeaseListenerBean.class" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/META-INF" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/META-INF/spring" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/META-INF/spring/pu.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/classes/META-INF/spring/sla.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+              <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/compile" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/compile/default-compile" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+              <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/testCompile" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+                  <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+                </favorite_root>
+              </favorite_root>
+            </favorite_root>
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-archiver" module="Notification" type="directory" klass="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode">
+            <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/maven-archiver/pom.properties" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+          </favorite_root>
+          <favorite_root url="file://$PROJECT_DIR$/Notification/model/target/model-1.0-SNAPSHOT.jar" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        </favorite_root>
+        <favorite_root url="file://$PROJECT_DIR$/Notification/model/pom.xml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+        <favorite_root url="file://$PROJECT_DIR$/Notification/model/model (1) (Notification).iml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      </favorite_root>
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="MySpaceSynchronizationEndpoint.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/MirrorExample/src/main/java/gs/example/MySpaceSynchronizationEndpoint.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RestManagerAPI/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restAPImethod.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/RestManagerAPI/src/main/java/gs/example/restAPImethod.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebScale/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>12.0.1</find>
+      <find>i</find>
+      <find>in</find>
+      <find>int</find>
+      <find>integratedp</find>
+      <find>integ</find>
+      <find>integr</find>
+      <find>integra</find>
+      <find>integrat</find>
+      <find>integrate</find>
+      <find>integrated</find>
+      <find>f</find>
+      <find>fif</find>
+      <find>fifo</find>
+      <find>po</find>
+      <find>p</find>
+      <find>pos</find>
+      <find>post</find>
+      <find>postp</find>
+      <find>sla</find>
+      <find>a</find>
+      <find>admi</find>
+      <find>admin</find>
+      <find>xa</find>
+      <find>xap-a</find>
+      <find>xap-ad</find>
+      <find>xap-adm</find>
+      <find>xap-admi</find>
+      <find>xap-admin</find>
+      <find>CustomManagerResource</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Aharon</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/KafkaIE</dir>
+      <dir>$PROJECT_DIR$/alerts</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PlayGround/xap-tutorial" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyWithReNew.java" />
+        <option value="$PROJECT_DIR$/WebScale/src/main/java/webscale/WebMonitor.java" />
+        <option value="$PROJECT_DIR$/WebScale/pom.xml" />
+        <option value="$PROJECT_DIR$/WebScale/src/main/java/com/gigaspaces/examples/webscale/WebMonitor.java" />
+        <option value="$PROJECT_DIR$/WebScale/src/main/resources/META-INF/spring/pu.xml" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/MyLeaseListenerBean.java" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyHAMain.java" />
+        <option value="$PROJECT_DIR$/DynamicPollingContainer/pom.xml" />
+        <option value="$PROJECT_DIR$/DynamicPollingContainer/src/main/java/com/test/StopPollingContainerTask.java" />
+        <option value="$PROJECT_DIR$/DynamicPollingContainer/src/main/java/com/test/StartPollingContainerTask.java" />
+        <option value="$PROJECT_DIR$/BasicPU/src/main/java/test/Data.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/java/gs/example/PuChangeStatusListener.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/java/gs/example/PuStatusChange.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/java/gs/example/Listeners.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/java/gs/example/TestEventSampler.java" />
+        <option value="$PROJECT_DIR$/alerts/src/main/java/gs/example/alerts/Alerts.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/java/gs/example/DATSMonitorTest.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/java/com/daiwacm/dats/util/DATSMonitorTest.java" />
+        <option value="$PROJECT_DIR$/PuStatusChange/src/main/resources/META-INF/spring/pu.xml" />
+        <option value="$PROJECT_DIR$/PuStatusChange/pom.xml" />
+        <option value="$PROJECT_DIR$/MirrorExample/pom.xml" />
+        <option value="$PROJECT_DIR$/MirrorExample/src/main/java/gs/example/MySpaceSynchronizationEndpoint.java" />
+        <option value="$PROJECT_DIR$/BasicPU/src/main/java/test/MockEds.java" />
+        <option value="$PROJECT_DIR$/BasicPU/src/main/resources/META-INF/spring/sla.xml" />
+        <option value="$PROJECT_DIR$/MirrorExample/src/main/resources/META-INF/spring/pu.xml" />
+        <option value="$PROJECT_DIR$/BasicPU/src/main/resources/META-INF/spring/pu.xml" />
+        <option value="$PROJECT_DIR$/pollingContainer/src/main/java/com/mycompany/Feeder.java" />
+        <option value="$PROJECT_DIR$/BasicClient/src/main/java/base/data/Person.java" />
+        <option value="$PROJECT_DIR$/BasicClient/src/main/java/base/client/BaseTest.java" />
+        <option value="$PROJECT_DIR$/EnamTest/pom.xml" />
+        <option value="$PROJECT_DIR$/EnamTest/src/main/java/GcmmTradeStatus.java" />
+        <option value="$PROJECT_DIR$/EnamTest/src/main/java/ubs/tst/AbstractGcmmTrade.java" />
+        <option value="$PROJECT_DIR$/EnamTest/src/main/java/ubs/tst/GcmmRateTrade.java" />
+        <option value="$PROJECT_DIR$/KafkaIE/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/resources/META-INF/spring/pu.xml" />
+        <option value="$PROJECT_DIR$/Notification/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/model2/pom.xml" />
+        <option value="$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/data/Data.java" />
+        <option value="$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/DataFeeder.java" />
+        <option value="$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/NotifyWithNoLease.java" />
+        <option value="$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/NotifyHAMain.java" />
+        <option value="$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/Notify.java" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyWithNoLease.java" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/DataFeeder.java" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/Notify.java" />
+        <option value="$PROJECT_DIR$/Notification/model/src/main/java/gs/example/data/Data.java" />
+        <option value="$PROJECT_DIR$/Notification/Dash/src/main/resources/META-INF/spring/sla.xml" />
+        <option value="$PROJECT_DIR$/Notification/model2/src/main/resources/META-INF/spring/pu.xml" />
+        <option value="$PROJECT_DIR$/BasicPU/pom.xml" />
+        <option value="$PROJECT_DIR$/RestManagerAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/RestManagerAPI/src/main/java/gs/example/restAPImethod.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Software/apache-maven-3.0.5" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="RestManagerAPI" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="RestManagerAPI" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1881" />
+    <option name="height" value="1014" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.gigaspaces:xap-admin:12.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xap-admin-12.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openspaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.gigaspaces:xap-admin:12.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xap-admin-12.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openspaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.gigaspaces:xap-admin:12.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xap-admin-12.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openspaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.gigaspaces:xap-admin:12.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xap-admin-12.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openspaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="machine" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.gigaspaces:xap-admin:12.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xap-admin-12.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="openspaces" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gsc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Maven: com.gigaspaces:xap-admin:12.2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xap-admin-12.2.0.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebScale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebScale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebScale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebScale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webscale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestManagerAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestManagerAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestManagerAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RestManagerAPI" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="RemoteService" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicPU" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BaseTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BasicClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="configurable.group.build" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xap-polling-test_v1" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.27011493" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/EnamTest/src/main/java" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.7" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Notification/model" />
+      <recent name="$PROJECT_DIR$/WriteSerializationObject/src/main/resources/META-INF/spring" />
+      <recent name="$PROJECT_DIR$/WriteSerializationObject/src/main/resources" />
+      <recent name="$PROJECT_DIR$/WriteSerializationObject/src/main/resources/spring/META-INF" />
+      <recent name="$PROJECT_DIR$/ReadModifiers/src/test/resources/readmodifier" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="gigaspaces.task" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="gs.example" />
+      <recent name="gs.example.data" />
+      <recent name="SGreadMultiple" />
+      <recent name="SocGen" />
+      <recent name="task" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Notification" />
+      <recent name="$PROJECT_DIR$/BasicPU/src/main/resources/META-INF/spring" />
+      <recent name="$PROJECT_DIR$/BasicPU/src/main/java" />
+      <recent name="$PROJECT_DIR$/DynamicPollingContainer/src/main/resources/META-INF/spring" />
+      <recent name="$PROJECT_DIR$/DynamicPollingContainer/src/main/java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Data2Feeder">
+    <configuration default="false" name="MainTaskExecutor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.test.MainTaskExecutor" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/DynamicPollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DynamicPollingContainer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MainFeeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.test.MainFeeder" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/DynamicPollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DynamicPollingContainer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestEventSampler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gs.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gs.example.TestEventSampler" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/PuStatusChange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PuStatusChange" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Data2Feeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gs.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gs.example.Data2Feeder" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Notification/model2" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="model2" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="DataFeeder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="gs.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="gs.example.DataFeeder" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Notification/model" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="model" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="base.client.BaseTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/BasicClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BasicClient" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ChangeModeEvent" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
+      <setting name="environment" value="" />
+      <setting name="specsToExecute" value="" />
+      <setting name="tags" value="" />
+      <setting name="parallelNodes" value="" />
+      <setting name="execInParallel" value="false" />
+      <setting name="programParameters" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="moduleName" value="" />
+      <envMap />
+      <setting name="rowsRange" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <setting name="useSbt" value="false" />
+      <setting name="useUiWithSbt" value="false" />
+      <classRegexps />
+      <testRegexps />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="cluster info" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="base.client.BaseTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/ClusterInfo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ClusterInfo" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="alerts" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.alerts.Alerts" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/BasicClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alerts" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Localcache" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.localcache.Localcache" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/LocalCache" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="LocalCache" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Notification" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.Notify" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Notification" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Notification" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="UBS-case9965" type="Application" factoryName="Application" singleton="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.ubs.example.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/UBS-case9965" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UBS-case9965" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChangeModeEvent" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.openspaces.pu.container.integrated.IntegratedProcessingUnitContainer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/ChangeModeEvent" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ChangeModeEvent" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="FindNumberOfPrimaries" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.FindNumberOfPrimaries" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/FindNumberOfPrimaries" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FindNumberOfPrimaries" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaskFeeder" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gigaspaces.task.Feeder" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Task" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Task" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NotificationRegisteration" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.Notify" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Notification" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Notification" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NotificationFeeder" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.DataFeeder" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Notification/model" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Notification" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NotificationHAMain" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gs.example.NotifyHAMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Notification" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Notification" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ExecuteTask" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gigaspaces.task.ExecuteTask" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Task" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Task" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LatestWriteTask" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.latest.LatestMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/UBSLatestTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UBSLatestTask" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LatestWriteChange" type="Application" factoryName="Application" singleton="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.latest.LatestMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/UBSLatestChange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UBSLatestChange" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LatestReadChange" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.latest.LatestVersionQuery" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/UBSLatestChange" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UBSLatestChange" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LatestReadTask" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gs.latest.LatestResultQuery" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/UBSLatestTask" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="UBSLatestTask" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="pollingContainer" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.openspaces.pu.container.integrated.IntegratedProcessingUnitContainer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/pollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pollingContainer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Reader" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.Reader" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/pollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pollingContainer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="purchase" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="purchase.example.Program" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/FullPollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="FullPollingContainer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Feeder" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.Feeder" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/pollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pollingContainer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Blob2" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main2" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Blob" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Blob" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Blob" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Blob" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Blob" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ElasticPU" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.elastic.ElasticMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Elastic-PU" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Elastic-PU" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SecuredAdmin" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="gigaspaces.example.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/JavaAuditing" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SecuredAdmin" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="RemoteService" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gigaspaces.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/RemoteService" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="RemoteService" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="IntegratedPU" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="org.openspaces.pu.container.integrated.IntegratedProcessingUnitContainer" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-cluster schema=partitioned-sync2backup total_members=1,1 id=1" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/pollingContainer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="pollingContainer" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="BaseTest" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="base.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="base.client.BaseTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/BasicClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BasicClient" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="GetVersion" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="PlatformVersionExample" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/getVersion" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="getVersion" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="WriteMultiple" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SocGen.Client" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/WriteMultiple" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="WriteMultiple" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Event_RemotingService_PU" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="base.client.BaseTest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/BasicClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="BasicClient" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Filter" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gigaspaces.data.trade.Filter" />
+      <option name="VM_PARAMETERS" value="-Dcom.gs.replication.required_consistency_level=2" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/Filter" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Filter" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SimpleTest" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="simple.SimpleTest" />
+      <option name="VM_PARAMETERS" value="-Djava.util.Properties=$env.XAP_HOME$/config/gs_logging.properties -Djava.net.preferIPv4Stack=true" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/SimpleTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="SimpleTest" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="JdbcClient" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="JdbcClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/JdbcClient" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="jdbc-client" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="my-rest" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.gigaspaces.tools.DeployRest" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/my-rest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="my-rest" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MemorySpike" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="com.samples.client.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="localhost 52319" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/memory-spike" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="memory-spike" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ReadMultiple" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SGreadMultiple.ReadMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/ReadMultiple" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ReadMultiple" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SixJunit" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="JunitTest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="junit.test" />
+      <option name="MAIN_CLASS_NAME" value="junit.test.JunitTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea -Dcom.gs.licensekey=&quot;Jan 30, 2018~aharon_dev@MY2PS4YMOu4woJRUMQec#PREMIUM^10.0XAPPremium%UNBOUND+UNLIMITED&quot;" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="42">
+      <item index="0" class="java.lang.String" itemvalue="Application.cluster info" />
+      <item index="1" class="java.lang.String" itemvalue="Application.alerts" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Localcache" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Notification" />
+      <item index="4" class="java.lang.String" itemvalue="Application.UBS-case9965" />
+      <item index="5" class="java.lang.String" itemvalue="Application.ChangeModeEvent" />
+      <item index="6" class="java.lang.String" itemvalue="Application.FindNumberOfPrimaries" />
+      <item index="7" class="java.lang.String" itemvalue="Application.TaskFeeder" />
+      <item index="8" class="java.lang.String" itemvalue="Application.NotificationRegisteration" />
+      <item index="9" class="java.lang.String" itemvalue="Application.NotificationFeeder" />
+      <item index="10" class="java.lang.String" itemvalue="Application.NotificationHAMain" />
+      <item index="11" class="java.lang.String" itemvalue="Application.ExecuteTask" />
+      <item index="12" class="java.lang.String" itemvalue="Application.LatestWriteTask" />
+      <item index="13" class="java.lang.String" itemvalue="Application.LatestWriteChange" />
+      <item index="14" class="java.lang.String" itemvalue="Application.LatestReadChange" />
+      <item index="15" class="java.lang.String" itemvalue="Application.LatestReadTask" />
+      <item index="16" class="java.lang.String" itemvalue="Application.pollingContainer" />
+      <item index="17" class="java.lang.String" itemvalue="Application.Reader" />
+      <item index="18" class="java.lang.String" itemvalue="Application.purchase" />
+      <item index="19" class="java.lang.String" itemvalue="Application.Feeder" />
+      <item index="20" class="java.lang.String" itemvalue="Application.Blob2" />
+      <item index="21" class="java.lang.String" itemvalue="Application.Blob" />
+      <item index="22" class="java.lang.String" itemvalue="Application.ElasticPU" />
+      <item index="23" class="java.lang.String" itemvalue="Application.SecuredAdmin" />
+      <item index="24" class="java.lang.String" itemvalue="Application.RemoteService" />
+      <item index="25" class="java.lang.String" itemvalue="Application.IntegratedPU" />
+      <item index="26" class="java.lang.String" itemvalue="Application.BaseTest" />
+      <item index="27" class="java.lang.String" itemvalue="Application.GetVersion" />
+      <item index="28" class="java.lang.String" itemvalue="Application.WriteMultiple" />
+      <item index="29" class="java.lang.String" itemvalue="Application.Event_RemotingService_PU" />
+      <item index="30" class="java.lang.String" itemvalue="Application.Filter" />
+      <item index="31" class="java.lang.String" itemvalue="Application.SimpleTest" />
+      <item index="32" class="java.lang.String" itemvalue="Application.JdbcClient" />
+      <item index="33" class="java.lang.String" itemvalue="Application.my-rest" />
+      <item index="34" class="java.lang.String" itemvalue="Application.MemorySpike" />
+      <item index="35" class="java.lang.String" itemvalue="Application.ReadMultiple" />
+      <item index="36" class="java.lang.String" itemvalue="JUnit.SixJunit" />
+      <item index="37" class="java.lang.String" itemvalue="Application.MainTaskExecutor" />
+      <item index="38" class="java.lang.String" itemvalue="Application.MainFeeder" />
+      <item index="39" class="java.lang.String" itemvalue="Application.TestEventSampler" />
+      <item index="40" class="java.lang.String" itemvalue="Application.Data2Feeder" />
+      <item index="41" class="java.lang.String" itemvalue="Application.DataFeeder" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.Data2Feeder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.DataFeeder" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestEventSampler" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainFeeder" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainTaskExecutor" />
+      </list>
+    </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="56125dfc-d0cd-415c-81e4-306c6b13df3b" name="Default" comment="" />
+      <created>1420117136396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1420117136396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1881" height="1014" extended-state="1" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.49601197" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35670102" sideWeight="0.3115653" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25611746" sideWeight="0.48604652" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1171875" sideWeight="0.6884347" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Sequence" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28830874" sideWeight="0.498006" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21207178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919094" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32761312" sideWeight="0.6555334" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2845361" sideWeight="0.4995015" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15024233" sideWeight="0.5139535" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26082474" sideWeight="0.49030694" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/UBS-case9965/src/main/java/gs/ubs/example/Main.java</url>
+          <line>83</line>
+          <properties />
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/UBS-case9965/src/main/java/gs/filter/LatestWorkerThread.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="94" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../xap/core/src/java/com/gigaspaces/internal/server/space/SpaceImpl.java</url>
+          <line>2728</line>
+          <properties />
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../xap/core/src/java/com/gigaspaces/internal/server/space/SpaceImpl.java</url>
+          <line>2714</line>
+          <properties />
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/../../xap/core/src/java/com/gigaspaces/internal/server/space/SpaceImpl.java</url>
+          <line>2691</line>
+          <properties />
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/UBSLatestTask/src/main/java/com/gs/latest/LatestMain.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/UBSLatestChange/src/main/java/com/gs/latest/LatestMain.java</url>
+          <line>62</line>
+          <properties />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ReadModifiers/src/test/groovy/readmodifier/DocumentWriter.groovy</url>
+          <line>90</line>
+          <properties />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ReadModifiers/src/test/groovy/readmodifier/DocumentReader.groovy</url>
+          <line>39</line>
+          <properties />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/FilterChangeQuery/src/main/java/Client.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FilterChangeQuery/src/main/java/tst/CounterPartyFilter.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/FilterChangeQuery/src/main/java/tst/SRDCustomQuery.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ClusterInfo/src/main/java/gigaspaces/clusterinfo/MyBean.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="231" />
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="MavenRunConfiguration">
+        <watch expression="logger" language="JAVA" custom="" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Mirror/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MirrorExample/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KafkaIE/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="30" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChangeModeEvent/src/main/resources/spring/pu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="false" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ChangeModeEvent/src/main/java/change/mode/event/ChangeModeEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyHAMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="40" column="82" lean-forward="false" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/MyLeaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/MyLeaseListenerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/resources/META-INF/spring/sla.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/data/Data2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/Data2Feeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/MyLeaseListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/NotifyHAMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="62" column="51" lean-forward="false" selection-start-line="62" selection-start-column="51" selection-end-line="62" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/Notification.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/model (1) (Notification).iml" />
+    <entry file="file://$PROJECT_DIR$/Notification/model2/model2.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/gigaspaces/gs-openspaces/11.0.0-14800-RELEASE/gs-openspaces-11.0.0-14800-RELEASE-sources.jar!/org/openspaces/core/GigaSpaceConfigurer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="64" column="11" lean-forward="false" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" lean-forward="false" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/model1.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/Dash/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/NotifyWithNoLease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="34" column="34" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/DataFeeder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/MyLeaseListenerBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/data/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/resources/META-INF/spring/sla.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/resources/META-INF/spring/pu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="36" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model/src/main/java/gs/example/Notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="23" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/Dash/src/main/resources/META-INF/spring/pu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="57" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/Dash/src/main/resources/META-INF/spring/sla.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/NotifyWithNoLease.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/resources/META-INF/spring/pu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="67" lean-forward="false" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MirrorExample/src/main/resources/META-INF/spring/pu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="66" lean-forward="false" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mirror/src/main/resources/spring/pu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Notification/model2/src/main/java/gs/example/Notify.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="35" column="43" lean-forward="false" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MirrorExample/src/main/java/gs/example/MySpaceSynchronizationEndpoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="15" column="2" lean-forward="false" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicClient/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicPU/src/main/java/test/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicPU/src/main/java/test/MockEds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BasicPU/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScale/src/main/java/com/gigaspaces/examples/webscale/WebMonitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-admin/12.2.0/xap-admin-12.2.0.jar!/org/openspaces/admin/Admin.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="31" column="17" lean-forward="false" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RemoteService/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestManagerAPI/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="20" lean-forward="false" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebScale/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-admin/12.2.0/xap-admin-12.2.0.jar!/org/openspaces/admin/rest/CustomManagerResource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-admin/12.2.0/xap-admin-12.2.0.jar!/org/openspaces/admin/gsc/GridServiceContainers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-admin/12.2.0/xap-admin-12.2.0.jar!/org/openspaces/admin/machine/Machine.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-admin/12.2.0/xap-admin-12.2.0.jar!/org/openspaces/admin/rest/Response.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="77" column="40" lean-forward="false" selection-start-line="77" selection-start-column="40" selection-end-line="77" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RestManagerAPI/src/main/java/gs/example/restAPImethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="33" selection-start-column="10" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>scala-sdk-2.10.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27011493" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>model</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.27011493" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ant:ant:1.6.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

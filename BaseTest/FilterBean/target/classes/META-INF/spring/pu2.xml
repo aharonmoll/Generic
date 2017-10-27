@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:os-core="http://www.openspaces.org/schema/core"
+       xmlns:os-events="http://www.openspaces.org/schema/events"
+       xmlns:os-remoting="http://www.openspaces.org/schema/remoting"
+       xmlns:os-sla="http://www.openspaces.org/schema/sla"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.1.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.1.xsd
+       http://www.openspaces.org/schema/core http://www.openspaces.org/schema/11.0/core/openspaces-core.xsd
+       http://www.openspaces.org/schema/events http://www.openspaces.org/schema/11.0/events/openspaces-events.xsd
+       http://www.openspaces.org/schema/remoting http://www.openspaces.org/schema/11.0/remoting/openspaces-remoting.xsd
+       N">
+
+    <!--
+        Spring property configurer which allows us to use system properties (such as user.name).
+    -->
+    <bean id="propertiesConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="properties">
+            <props>
+                <prop key="dataGridName">dataGrid</prop>
+            </props>
+        </property>
+    </bean>
+
+    <!--
+        A bean representing an embedded space.
+    -->
+
+    <os-core:embedded-space id="space" name="${dataGridName}">
+        <os-core:properties>
+            <props>
+                <prop key="cluster-config.groups.group.fail-over-policy.active-election.yield-time">300</prop>
+                <prop key="cluster-config.groups.group.fail-over-policy.active-election.fault-detector.invocation-delay">300</prop>
+                <prop key="cluster-config.groups.group.fail-over-policy.active-election.fault-detector.retry-count">1</prop>
+                <prop key="cluster-config.groups.group.fail-over-policy.active-election.fault-detector.retry-timeout">1</prop>
+            </props>
+        </os-core:properties>
+    </os-core:embedded-space>
+
+    <os-sla:sla>
+        <os-sla:member-alive-indicator invocation-delay="5000" retry-count="3" retry-timeout="500" />
+    </os-sla:sla>
+
+    </beans>

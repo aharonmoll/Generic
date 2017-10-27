@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BasicClient/BasicClient.iml" filepath="$PROJECT_DIR$/BasicClient/BasicClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicPU/BasicPU.iml" filepath="$PROJECT_DIR$/BasicPU/BasicPU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Blob/Blob.iml" filepath="$PROJECT_DIR$/Blob/Blob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChangeModeEvent/ChangeModeEvent.iml" filepath="$PROJECT_DIR$/ChangeModeEvent/ChangeModeEvent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClusterInfo/ClusterInfo.iml" filepath="$PROJECT_DIR$/ClusterInfo/ClusterInfo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomMetric/CustomMetric.iml" filepath="$PROJECT_DIR$/CustomMetric/CustomMetric.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomReporter/CustomReporter.iml" filepath="$PROJECT_DIR$/CustomReporter/CustomReporter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DynamicPollingContainer/DynamicPollingContainer.iml" filepath="$PROJECT_DIR$/DynamicPollingContainer/DynamicPollingContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Elastic-PU/Elastic-PU.iml" filepath="$PROJECT_DIR$/Elastic-PU/Elastic-PU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Filter/Filter.iml" filepath="$PROJECT_DIR$/Filter/Filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilterBean/FilterBean.iml" filepath="$PROJECT_DIR$/FilterBean/FilterBean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilterChangeQuery/FilterChangeQuery.iml" filepath="$PROJECT_DIR$/FilterChangeQuery/FilterChangeQuery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FindNumberOfPrimaries/FindNumberOfPrimaries.iml" filepath="$PROJECT_DIR$/FindNumberOfPrimaries/FindNumberOfPrimaries.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FullPollingContainer/FullPollingContainer.iml" filepath="$PROJECT_DIR$/FullPollingContainer/FullPollingContainer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Geospatial/Geospatial.iml" filepath="$PROJECT_DIR$/Geospatial/Geospatial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hostname/Hostname.iml" filepath="$PROJECT_DIR$/Hostname/Hostname.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JunitTest/JunitTest.iml" filepath="$PROJECT_DIR$/JunitTest/JunitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/KafkaIE/KafkaIE.iml" filepath="$PROJECT_DIR$/KafkaIE/KafkaIE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LocalCache/LocalCache.iml" filepath="$PROJECT_DIR$/LocalCache/LocalCache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Mirror/Mirror.iml" filepath="$PROJECT_DIR$/Mirror/Mirror.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MirrorExample/MirrorExample.iml" filepath="$PROJECT_DIR$/MirrorExample/MirrorExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Notification/Notification.iml" filepath="$PROJECT_DIR$/Notification/Notification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PuStatusChange/PuStatusChange.iml" filepath="$PROJECT_DIR$/PuStatusChange/PuStatusChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadModifiers/ReadModifiers.iml" filepath="$PROJECT_DIR$/ReadModifiers/ReadModifiers.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReadMultiple/ReadMultiple.iml" filepath="$PROJECT_DIR$/ReadMultiple/ReadMultiple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteService/RemoteService.iml" filepath="$PROJECT_DIR$/RemoteService/RemoteService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestManagerAPI/RestManagerAPI.iml" filepath="$PROJECT_DIR$/RestManagerAPI/RestManagerAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaAuditing/SecuredAdmin.iml" filepath="$PROJECT_DIR$/JavaAuditing/SecuredAdmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleTest/SimpleTest.iml" filepath="$PROJECT_DIR$/SimpleTest/SimpleTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleTone/SingleTone.iml" filepath="$PROJECT_DIR$/SingleTone/SingleTone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Task/Task.iml" filepath="$PROJECT_DIR$/Task/Task.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../UBS/TaskPu1/TaskPu1.iml" filepath="$PROJECT_DIR$/../../UBS/TaskPu1/TaskPu1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TaskSpaceDocumentWrite/TaskSpaceDocumentWrite.iml" filepath="$PROJECT_DIR$/TaskSpaceDocumentWrite/TaskSpaceDocumentWrite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UBS-case9965/UBS-case9965.iml" filepath="$PROJECT_DIR$/UBS-case9965/UBS-case9965.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UBSClassNotFound/UBSClassNotFound.iml" filepath="$PROJECT_DIR$/UBSClassNotFound/UBSClassNotFound.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UBSLatestChange/UBSLatestChange.iml" filepath="$PROJECT_DIR$/UBSLatestChange/UBSLatestChange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/UBSLatestTask/UBSLatestTask.iml" filepath="$PROJECT_DIR$/UBSLatestTask/UBSLatestTask.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebScale/WebScale.iml" filepath="$PROJECT_DIR$/WebScale/WebScale.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WriteMultiple/WriteMultiple.iml" filepath="$PROJECT_DIR$/WriteMultiple/WriteMultiple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WriteSerializationObject/WriteSerializationObject.iml" filepath="$PROJECT_DIR$/WriteSerializationObject/WriteSerializationObject.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/XAPTutorial.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/XAPTutorial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alerts/alerts.iml" filepath="$PROJECT_DIR$/alerts/alerts.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/cassandra/cassandra.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/cassandra/cassandra.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WriteMultipleTwoThreadsTest/com.gigaspaces.test.WriteMultipleTwoThreadsTest.iml" filepath="$PROJECT_DIR$/WriteMultipleTwoThreadsTest/com.gigaspaces.test.WriteMultipleTwoThreadsTest.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/pu/eventPU.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/pu/eventPU.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getVersion/getVersion.iml" filepath="$PROJECT_DIR$/getVersion/getVersion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JdbcClient/jdbc-client.iml" filepath="$PROJECT_DIR$/JdbcClient/jdbc-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/memory-spike/memory-spike.iml" filepath="$PROJECT_DIR$/memory-spike/memory-spike.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Notification/model/model.iml" filepath="$PROJECT_DIR$/Notification/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Notification/model2/model2.iml" filepath="$PROJECT_DIR$/Notification/model2/model2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-rest/my-rest.iml" filepath="$PROJECT_DIR$/my-rest/my-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pollingContainer/pollingContainer.iml" filepath="$PROJECT_DIR$/pollingContainer/pollingContainer.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/qsg/qsg.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/qsg/qsg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sigar/sigar.iml" filepath="$PROJECT_DIR$/sigar/sigar.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/web/web.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/web/web.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/web/plain/web-plain.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/web/plain/web-plain.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/web/session/web-session.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/web/session/web-session.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/xap-tutorial/web/space-access/web-space.iml" filepath="$USER_HOME$/PlayGround/xap-tutorial/web/space-access/web-space.iml" />
+      <module fileurl="file://$USER_HOME$/PlayGround/FrequentisExample/writer-pu/writer-pu.iml" filepath="$USER_HOME$/PlayGround/FrequentisExample/writer-pu/writer-pu.iml" />
+    </modules>
+  </component>
+</project>

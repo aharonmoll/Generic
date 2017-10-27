@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="alerts" />
+        <module name="BasicClient" />
+        <module name="BasicPU" />
+        <module name="Blob" />
+        <module name="cassandra" />
+        <module name="ChangeModeEvent" />
+        <module name="ClusterInfo" />
+        <module name="com.gigaspaces.test.WriteMultipleTwoThreadsTest" />
+        <module name="CustomMetric" />
+        <module name="CustomReporter" />
+        <module name="DistributedTask" />
+        <module name="DynamicPollingContainer" />
+        <module name="Elastic-PU" />
+        <module name="Event_Remoting_Server (1) (example.eventremoting.service)" />
+        <module name="eventPU" />
+        <module name="Filter" />
+        <module name="FilterBean" />
+        <module name="FilterChangeQuery" />
+        <module name="FindNumberOfPrimaries" />
+        <module name="FullPollingContainer" />
+        <module name="Geospatial" />
+        <module name="getVersion" />
+        <module name="Hostname" />
+        <module name="jdbc-client" />
+        <module name="JunitTest" />
+        <module name="KafkaIE" />
+        <module name="LocalCache" />
+        <module name="memory-spike" />
+        <module name="Mirror" />
+        <module name="MirrorExample" />
+        <module name="model" />
+        <module name="model (2)" />
+        <module name="model2" />
+        <module name="my-rest" />
+        <module name="Notification (1)" />
+        <module name="pollingContainer" />
+        <module name="PuStatusChange" />
+        <module name="qsg" />
+        <module name="ReadModifiers" />
+        <module name="ReadMultiple" />
+        <module name="RemoteService" />
+        <module name="RestManagerAPI" />
+        <module name="SecuredAdmin" />
+        <module name="sigar" />
+        <module name="SimpleTest" />
+        <module name="SingleTone" />
+        <module name="Singletone" />
+        <module name="Task" />
+        <module name="TaskPu1" />
+        <module name="TaskSpaceDocumentWrite" />
+        <module name="UBS-case9965" />
+        <module name="UBSClassNotFound" />
+        <module name="UBSLatestChange" />
+        <module name="UBSLatestTask" />
+        <module name="web-plain" />
+        <module name="web-session" />
+        <module name="web-space" />
+        <module name="WebScale" />
+        <module name="WriteMultiple" />
+        <module name="writer-pu" />
+        <module name="WriteSerializationObject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.7">
+      <module name="alerts" target="1.8" />
+      <module name="BasicClient" target="1.5" />
+      <module name="BasicPU" target="1.5" />
+      <module name="Blob" target="1.5" />
+      <module name="cassandra" target="1.5" />
+      <module name="ChangeModeEvent" target="1.5" />
+      <module name="ClusterInfo" target="1.5" />
+      <module name="com.gigaspaces.test.WriteMultipleTwoThreadsTest" target="1.5" />
+      <module name="contract" target="1.8" />
+      <module name="CustomMetric" target="1.5" />
+      <module name="CustomReporter" target="1.5" />
+      <module name="Dash" target="1.5" />
+      <module name="DynamicPollingContainer" target="1.5" />
+      <module name="Elastic-PU" target="1.5" />
+      <module name="EnamTest" target="1.5" />
+      <module name="eventPU" target="1.5" />
+      <module name="Filter" target="1.5" />
+      <module name="FilterBean" target="1.5" />
+      <module name="FilterChangeQuery" target="1.5" />
+      <module name="FindNumberOfPrimaries" target="1.5" />
+      <module name="FullPollingContainer" target="1.5" />
+      <module name="Geospatial" target="1.5" />
+      <module name="getVersion" target="1.5" />
+      <module name="Hostname" target="1.5" />
+      <module name="jdbc-client" target="1.5" />
+      <module name="JunitTest" target="1.5" />
+      <module name="KafkaIE" target="1.5" />
+      <module name="LocalCache" target="1.8" />
+      <module name="memory-spike" target="1.5" />
+      <module name="Mirror" target="1.5" />
+      <module name="MirrorExample" target="1.5" />
+      <module name="model" target="1.5" />
+      <module name="model (1) (Notification)" target="1.5" />
+      <module name="model (1) (xap.tutorial)" target="1.5" />
+      <module name="model (2)" target="1.5" />
+      <module name="model2" target="1.5" />
+      <module name="my-rest" target="1.5" />
+      <module name="Notification" target="1.5" />
+      <module name="Notification (1)" target="1.5" />
+      <module name="poller" target="1.8" />
+      <module name="pollingContainer" target="1.5" />
+      <module name="PuStatusChange" target="1.8" />
+      <module name="qsg" target="1.5" />
+      <module name="ReadModifiers" target="1.5" />
+      <module name="ReadMultiple" target="1.5" />
+      <module name="RemoteService" target="1.5" />
+      <module name="RestManagerAPI" target="1.5" />
+      <module name="SecuredAdmin" target="1.5" />
+      <module name="SecurityFilter" target="1.5" />
+      <module name="sigar" target="1.5" />
+      <module name="SimpleTest" target="1.5" />
+      <module name="SingleTone" target="1.5" />
+      <module name="Task" target="1.5" />
+      <module name="TaskPu1" target="1.5" />
+      <module name="TaskSpaceDocumentWrite" target="1.5" />
+      <module name="UBS-case9965" target="1.5" />
+      <module name="UBSClassNotFound" target="1.5" />
+      <module name="UBSLatestChange" target="1.5" />
+      <module name="UBSLatestTask" target="1.5" />
+      <module name="web" target="1.5" />
+      <module name="web-plain" target="1.5" />
+      <module name="web-session" target="1.5" />
+      <module name="web-space" target="1.5" />
+      <module name="WebScale" target="1.5" />
+      <module name="WriteMultiple" target="1.5" />
+      <module name="writer-pu" target="1.8" />
+      <module name="WriteSerializationObject" target="1.5" />
+      <module name="xap-polling-test" target="1.5" />
+      <module name="XAPTutorial" target="1.5" />
+      <module name="zkui" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

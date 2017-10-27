@@ -1,0 +1,34 @@
+<assembly>
+    <id>gigaspaces-playground-pu</id>
+    <formats>
+        <format>jar</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <directory>target/classes</directory>
+            <lineEnding>keep</lineEnding>
+            <outputDirectory>/</outputDirectory>
+            <includes>
+                <include>**/**</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>META-INF/spring</directory>
+            <lineEnding>keep</lineEnding>
+            <outputDirectory>META-INF/spring</outputDirectory>
+            <includes>
+                <include>**/*.xml</include>
+            </includes>
+            <useDefaultExcludes>true</useDefaultExcludes>
+        </fileSet>
+    </fileSets>
+    <dependencySets>
+        <dependencySet>
+            <outputDirectory>lib</outputDirectory>
+            <excludes>
+                <exclude>**/gs-license*</exclude>
+            </excludes>
+        </dependencySet>
+    </dependencySets>
+</assembly>

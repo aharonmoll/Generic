@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.gigaspaces:xap-jms:10.2.1-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-jms/10.2.1-SNAPSHOT/xap-jms-10.2.1-20160420.140411-354.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-jms/10.2.1-SNAPSHOT/xap-jms-10.2.1-20160420.140411-354-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/gigaspaces/xap-jms/10.2.1-SNAPSHOT/xap-jms-10.2.1-20160420.140411-354-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

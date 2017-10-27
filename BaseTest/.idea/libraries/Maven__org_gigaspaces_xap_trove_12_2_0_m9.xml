@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.gigaspaces:xap-trove:12.2.0-m9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gigaspaces/xap-trove/12.2.0-m9/xap-trove-12.2.0-m9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gigaspaces/xap-trove/12.2.0-m9/xap-trove-12.2.0-m9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/gigaspaces/xap-trove/12.2.0-m9/xap-trove-12.2.0-m9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
